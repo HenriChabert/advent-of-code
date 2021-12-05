@@ -26,6 +26,7 @@ class Day4(AOCDay):
                 if score >= 0 and score_index < max_score[1]:
                     max_score = (score, score_index, i)
             boards_score.append(max_score)
+        return boards_score
 
     def solve_part_1(self):
         best_board_score = min(self.calc_boards_score(), key=lambda x: x[1])
