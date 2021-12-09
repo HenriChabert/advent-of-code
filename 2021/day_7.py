@@ -22,7 +22,7 @@ class Day7(AOCDay):
 
 
 if __name__ == "__main__":
-    day = Day7(filepath="inputs/day_7.txt")
-    # day = Day7()
-    # print(f"Part 1: {day.solve_part_1()}")
+    # day = Day7(filepath="inputs/day_7.txt")
+    day = Day7()
+    print(f"Part 1: {day.solve_part_1()}")
     print(f"Part 2: {day.solve_part_2()}")
